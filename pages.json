@@ -1,0 +1,170 @@
+{
+	// "condition": { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式(list 的索引项)
+	// 	"list": [{
+	// 		"name": "test", //模式名称
+	// 		"path": "pages/componentsA/test/test", //启动页面，必选
+	// 		"query": "" //启动参数，在页面的onLoad函数里面得到
+	// 	}]
+	// },
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		}, {
+			"path": "pages/index/scan"
+		}, {
+			"path": "pages/index/myscan"
+		}, {
+			"path": "pages/index/ucenter"
+		}, {
+			"path": "pages/common/parameter"
+		}, {
+			"path": "pages/common/users"
+		}, {
+			"path": "pages/common/webview/webview"
+		}, {
+			"path": "pages/share"
+		}
+	],
+	"subPackages": [{
+		"root": "pagesA",
+		"pages": [{
+			"path": "ticket/barcode"
+		}, {
+			"path": "ticket/create"
+		}, {
+			"path": "ticket/create0"
+		}, {
+			"path": "ticket/mysallary"
+		}, {
+			"path": "ticket/mysetting"
+		}, {
+			"path": "ticket/process"
+		}, {
+			"path": "ticket/scan0"
+		}, {
+			"path": "ticket/setting"
+		}, {
+			"path": "ticket/ticket"
+		}, {
+			"path": "ticket/order"
+		}, {
+			"path": "ticket/qc"
+		}, {
+			"path": "scancount/scancount"
+		}, {
+			"path": "scancount/scan"
+		}]
+	}, {
+		"root": "pagesPrinter",
+		"pages": [{
+			"path": "printer"
+		}, {
+			"path": "barcode"
+		}, {
+			"path": "socket"
+		}]
+	}, {
+		"root": "pagesSales",
+		"pages": [{
+			"path": "sales"
+		}, {
+			"path": "custvend"
+		}, {
+			"path": "modules"
+		}, {
+			"path": "pl"
+		}, {
+			"path": "pd"
+		}, {
+			"path": "ps"
+		}, {
+			"path": "cart"
+		}, {
+			"path": "myorder"
+		}]
+	}, {
+		"root": "pagesStore",
+		"pages": [{
+			"path": "material"
+		}, {
+			"path": "product"
+		}, {
+			"path": "materialio"
+		}, {
+			"path": "productio"
+		}, {
+			"path": "spi"
+		},
+		{
+			"path": "wbio"
+		},{
+			"path":"express"
+		}  
+            ]
+	}, {
+		"root": "pagesUcenter",
+		"pages": [{
+			"path": "index"
+		}, {
+			"path": "login_wx"
+		}, {
+			"path": "login"
+		}, {
+			"path": "company/company"
+		}]
+	}, {
+		"root": "pagesAst",
+		"pages": [{
+			"path": "index"
+		}, {
+			"path": "order"
+		}, {
+			"path": "login"
+		}, {
+			"path": "register"
+		}, {
+			"path": "cart"
+		}, {
+			"path": "iot"
+		
+		}]
+	}],
+	"preloadRule": {
+
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "扫码计件",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": false
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/home.png",
+			"selectedIconPath": "static/home-current.png",
+			"text": "主页"
+		}, {
+			"pagePath": "pages/index/scan",
+			"iconPath": "static/barcode.png",
+			"selectedIconPath": "static/barcode-current.png",
+			"text": "扫码"
+		}, {
+			"pagePath": "pages/index/myscan",
+			"iconPath": "static/list.png",
+			"selectedIconPath": "static/list-current.png",
+			"text": "记录"
+		}, {
+			"pagePath": "pages/index/ucenter",
+			"iconPath": "static/my.png",
+			"selectedIconPath": "static/my-current.png",
+			"text": "我的"
+		}]
+	}
+}

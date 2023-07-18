@@ -1,0 +1,4 @@
+uView V2.0.31版本中：
+在index.js文件
+第288行应改为 else if (/^\d{10}$/.test(dateTime?.toString().trim()) || /^\d{9}$/.test(dateTime?.toString().trim())) {
+第339行应改为if (timestamp.toString().length == 10 || timestamp.toString().length == 9) timestamp *= 1000

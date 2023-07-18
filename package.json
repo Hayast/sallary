@@ -1,0 +1,15 @@
+{
+	"id": "uview-ui",
+	"scripts": {
+		"test": "eslint . --fix"
+	},
+	"dependencies": {
+		"mqtt": "^3.0.0",
+		"uuid": "^9.0.0",
+		"uview-ui": "^2.0.33"
+	},
+	"devDependencies": {
+		"eslint": "^8.2.0",
+		"eslint-config-airbnb": "^19.0.0"
+	}
+}
