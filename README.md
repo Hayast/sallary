@@ -1,97 +1,69 @@
-<p align="center">
-    <img alt="logo" src="https://uviewui.com/common/logo.png" width="120" height="120" style="margin-bottom: 10px;">
-</p>
-<h3 align="center" style="margin: 30px 0 30px;font-weight: bold;font-size:40px;">uView 2.0</h3>
-<h3 align="center">多平台快速开发的UI框架</h3>
+流程.
 
-[![stars](https://img.shields.io/github/stars/umicro/uView2.0?style=flat-square&logo=GitHub)](https://github.com/umicro/uView2.0)
-[![forks](https://img.shields.io/github/forks/umicro/uView2.0?style=flat-square&logo=GitHub)](https://github.com/umicro/uView2.0)
-[![issues](https://img.shields.io/github/issues/umicro/uView2.0?style=flat-square&logo=GitHub)](https://github.com/umicro/uView2.0/issues)
-[![Website](https://img.shields.io/badge/uView-up-blue?style=flat-square)](https://uviewui.com)
-[![release](https://img.shields.io/github/v/release/umicro/uView2.0?style=flat-square)](https://gitee.com/umicro/uView2.0/releases)
-[![license](https://img.shields.io/github/license/umicro/uView2.0?style=flat-square)](https://en.wikipedia.org/wiki/MIT_License)
+①设置参数 ②建立工序工价 ③建立工单 / 裁床编菲④打印二维码 ⑤员工手机扫码 / 批量上报⑥生成工资
+适合服装, 家具, 五金,电动车等行业
 
-## 说明
+开发工具: uniapp前端开发微信小城序,APP,H5免费开源
 
-uView UI，是[uni-app](https://uniapp.dcloud.io/)全面兼容nvue的uni-app生态框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
-
-## [官方文档：https://uviewui.com](https://uviewui.com)
-
-### 官方1群：1042987248（已满）
-### 官方2群：249718512（已满）
-### 官方3群：1129077272（已满）
-### 官方4群：1084514613（已满）
-### 官方5群：863820668（已满）
-### 官方6群：745721078（已满）
-### 官方7群：627867855（已满）
-### 官方8群：496409492（已满）
-### 官方9群：828504448（已满）
-### 官方10群：232041042（已满）
-### 官方11群：364463526（已满）
-### [点击加12群交流反馈：229707069](https://jq.qq.com/?_wv=1027&k=k7L9eaoi)
-
-## 特性
-
-- 全面兼容nvue，原生渲染，高性能
-- 兼容安卓，iOS，微信小程序，H5，QQ小程序，百度小程序，支付宝小程序，头条小程序
-- 60+精选组件，功能丰富，多端兼容，让您快速集成，开箱即用
-- 众多贴心的JS利器，让您飞镖在手，召之即来，百步穿杨
-- 众多的常用页面和布局，让您专注逻辑，事半功倍
-- 详尽的文档支持，现代化的演示效果
-- 按需引入，精简打包体积
+试用: https://n1.yunitapp.com
 
 
-## 预览
 
-您可以通过**微信**扫码，查看最佳的演示效果。
-<br>
-<br>
-<img src="https://uviewui.com/common/weixin_mini_qrcode.png" width="220" height="220" >
+一. 扫码计件
 
+裁床编菲
+工序工价
+工菲/工单管理
+计件记录
+生产进度
+工资管理
+帐号管理
+参数
+APP小程序
+二. 库存
 
-## 链接
+产品管理
+产品入库
+产品出库
+物料管理
+物料入库
+物料出库
+快递管理
+调整库存
+客户管理
+供应商管理
+三. 销售管理
 
-- [官方文档](https://www.uviewui.com/)
-- [更新日志](https://www.uviewui.com/components/changelog.html)
-- [升级指南](https://www.uviewui.com/components/changeGuide.html)
-- [关于我们](https://www.uviewui.com/cooperation/about.html)
+销售订单
+模具管理
+客户管理
+四. 快递管理/仓位架号管理
 
-## 交流反馈
-
-欢迎加入我们的QQ群交流反馈：[点此跳转](https://www.uviewui.com/components/addQQGroup.html)
-
-## 关于PR
-
-> 我们非常乐意接受各位的优质PR，但在此之前我希望您了解uView2.0是一个需要兼容多个平台的（小程序、h5、ios app、android app）包括nvue页面、vue页面。
-> 所以希望在您修复bug并提交之前尽可能的去这些平台测试一下兼容性。最好能携带测试截图以方便审核。非常感谢！
-
-## 安装
-
-#### **下载地址** —— [https://ext.dcloud.net.cn/plugin?id=1593](https://ext.dcloud.net.cn/plugin?id=1593)
-
-## 快速上手
-
-请通过[官网安装文档](https://www.uviewui.com/components/install.html)了解更详细的内容
-
-## 使用方法
-配置easycom规则后，自动按需引入，无需`import`组件，直接引用即可。
-
-```html
-<template>
-	<u-button text="按钮"></u-button>
-</template>
-```
-
-请通过[快速上手](https://v2.uviewui.com/components/quickstart.html)了解更详细的内容
+https://s1.yunitapp.com/
 
 
-## 捐赠uView的研发
+新版特性
 
-uView文档内容和框架源码全部开源免费，如果您认为uView帮到了您的开发工作，您可以捐赠uView的研发工作，捐赠无门槛，哪怕是一杯可乐也好(相信这比打赏主播更有意义)。
-
-<img src="https://uviewui.com/common/wechat.png" width="220" >
-<img style="margin-left: 100px;" src="https://uviewui.com/common/alipay.png" width="220" >
-
-## 版权信息
-uView遵循[MIT](https://en.wikipedia.org/wiki/MIT_License)开源协议，意味着您无需支付任何费用，也无需授权，即可将uView应用到您的产品中。
-
+支持大量数据
+速度快
+扫码方便
+系统操作简单, 界面简洁
+使用操作更简单, 容易上手
+帐号权限按功能模组设定是否开放
+设定权限员工是否显示工价
+工序工价设定多样化, 尺码/规格工价, 员工薪酬等级, 员工工价, 后补工价
+工序工价导入, 工单导入
+默认工序提交
+筛选部门快速选择工序提交
+人工选择工单上报数量
+批量提交工单
+工序码提交
+快速生成工资
+多种生产进度显示
+员工代扫码提交
+员工固定工序, 可选工序设置
+完成后结算
+扫码即时工价或者结算前统一工价
+最后工序提交即入库, 自动加总库存
+销售订单转工单
+支持裁片, 裁片自定义及打印
